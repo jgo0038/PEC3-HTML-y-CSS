@@ -1,14 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Inicio</title>
 </head>
 
 <body>
+    <header id="cabecera">
+        <div id="loginDiv">
+            <button id="login" href=""> Iniciar sesión</button>
+        </div>
+        <div id="iconoDiv">
+            <img id="iconoImg" src="img/oscarsclub-isologo.png" alt="iconoOscarsClub">
+            <a id="oscarsclub" href="index.html"><span id="oscars"><b>oscars</b></span><span
+                    id="club"><b>club</b></span></a>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="clubes-tematicos.html"><b>CLUBES TEMÁTICOS</b></a></li>
+                <li><a href="sesiones-2020.html"><b>SESIONES 2020</b></a></li>
+            </ul>
+        </div>
 
+    </header>
+    <div id="info">
+        <h3>¿Qué es Oscars Club?</h3>
+        <p>
+            Oscars Club organiza clubes virtuales de cine de diversos géneros y en
+            diferentes lenguas, para los amantes del cine que quieran compartir
+            reflexiones y debatir sobre las películas que les interesan sin necesidad
+            de tener que ir a un espacio físico.
+        </p>
+    </div>
+    <h3>¿Cómo funciona?</h3>
+    <div id="iconos">
+
+        <figure>
+            <img id="iconoRegister" src="img/howto-register.png" alt="registrate">
+            <figcaption>Regístrate</figcaption>
+        </figure>
+
+        <figure>
+            <img id="iconoRegister" src="img/howto-club.png" alt="registrate">
+            <figcaption>Inscríbete en un club</figcaption>
+        </figure>
+
+        <figure>
+            <img id="iconoRegister" src="img/howto-film.png" alt="registrate">
+            <figcaption>Elige una película</figcaption>
+        </figure>
+
+        <figure>
+            <img id="iconoRegister" src="img/howto-speech.png" alt="registrate">
+            <figcaption>Disfruta del debate</figcaption>
+        </figure>
+    </div>
+    <h3>Únete al club</h3>
+    <div id="unirse">
+
+        <section id="textoUnirse">
+            Estamos mirando tu próxima película preferida.<br>
+            ¿Te lo vas a perder?
+        </section>
+        <div id="formulario">
+            <form method="POST">
+
+                <div>
+                    <input id="nombre" name="nombre_user" type="text" placeholder="Nombre">
+                    <input id="correo" name="correo" type="text" placeholder="Correo electrónico">
+                    <input id="contraseña" name="contraseña" type="text" placeholder="Contraseña">
+                </div>
+            </form>
+            <p id="infoDatos">
+                INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE
+                <b>OSCARS CLUB. Finalidades:</b> recogida de datos para la
+                inscripción como socio del interesado.<b>Legitimación:</b>
+                Consentimiento del interesado. <b>Destinatarios:</b> No están previstas
+                cesiones de datos a terceros, salvo obligación legal. <b>Derechos:</b>
+                Puede retirar su consentimiento en cualquier momento, así como
+                acceder, rectificar, suprimir sus datos y otros derechos
+                dirigiéndose a oscarsclub@oscarsclub.org. <b>Información
+                    Adicional:</b> Puede ampliar la información en el enlace de <a href="">Aviso
+                    Legal</a> y <a href="">Política de privacidad</a>.<br>
+
+
+            </p>
+            <input type="checkbox"><label style="font-size: 1.5vh;"> He leído y acepto la política de
+                privacidad</label><br>
+            <button id="login" href="">Registrarse</button>
+        </div>
+
+    </div>
+    <footer>
+        <div id="sect1">
+            <div id="footer1">
+                <a href=""> Sobre nosotros</a>
+                <a href=""> Aviso legal</a>
+                <a href=""> Política de privacidad</a>
+            </div>
+            <div id="footer2">
+                <a href=""> Facebook</a>
+                <a href=""> Twitter</a>
+                <a href=""> Youtube</a>
+            </div>
+        </div>
+        <div id="sect2">
+            <div id="footer3">
+                <a>2020 &copy; Jorge Gómez Ortiz</a>
+                <a href="https://www.flaticon.com"> Iconos flaticon.com</a>
+                <a href="https://www.unsplash.com"> Imágenes unsplash.com</a>
+            </div>
+            <div id="footer4">
+                <a href="#top">&xwedge;</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
