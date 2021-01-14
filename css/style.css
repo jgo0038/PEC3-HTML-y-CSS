@@ -5,3 +5,465 @@ html, body{
     margin: 0px;
     font-family: 'Noto Serif', serif;
 }
+
+/* Responsive para pantallas mayores de 900px*/
+@media screen and (min-width: 900px) {
+    body #cabecera {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    body .links ul{
+        flex-direction: row;
+    }
+
+    body .links ul li{
+        padding:10%;
+    }
+
+    body #loginDiv{
+        order: 3;
+        margin:1%;
+    }
+
+    body #infoP{
+        padding-left:20%;
+        padding-right:20%;
+        text-align: center;
+    }
+
+    body #iconos{
+        flex-direction: row;
+    }
+
+    body #unirse{
+        display: flex;
+        flex-direction: row;
+        justify-content: initial;
+    }
+
+    body #unirse #textoUnirse{
+        flex: 1;
+        text-align: center;
+        margin: 0;
+        align-items: flex-start;
+
+    }
+    body #unirse #formulario{
+        flex: 1;
+    }
+    body #unirse #formulario #infoDatos{
+        width: 50%;
+    }
+    body #formulario form{
+        width: 50%;
+    }
+
+    body footer #sect1{
+        flex-direction: row;
+        justify-content: space-between;
+        width: -webkit-fill-available;
+    }
+    body footer #sect2{
+        flex-direction: row;
+        justify-content: space-between;
+        width: -webkit-fill-available;
+    }
+
+    body footer #sect1 div{
+        flex-direction: row;
+        /* justify-content: space-between; */
+    }
+
+    body footer #sect2, body footer #sect2 div {
+        padding: 0;
+    }
+
+    body footer #footer3{
+        justify-content: left;
+    }
+
+    body #imagenesClubs{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body #imagenesClubs figure{
+        flex: 0 0 25%;
+    }
+    body #infoSessions{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    body #columnasSesiones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    body .enlacesSesiones{
+        font-size: 2vh;
+    }
+
+    body .imagenPelicula{
+        /* all:initial; */
+        height: 80vh;
+        width: 20vw;
+    }
+
+    body .peliculasSesiones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body .peliculasSesiones figure{
+        margin:1%;
+    }
+
+    body #todasSesiones{
+        margin-right: 5%;
+    }
+
+    body #detallesSesion{
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+    
+    body #fichaTecnica{
+        flex:40%;
+        margin-right: 2%;
+    }
+    body #infoObra{
+        flex:60%;
+    }
+
+    body #infoObra{
+        display: flex;
+        flex-direction: column;
+    }
+    body #videoKlaus{
+        display: flex;
+        width: 95%;
+        height: 150%;
+    }
+    BODY #fotoSergio{
+        width: 8vw;
+        height: 8vw;
+    }
+    
+} 
+
+#cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#login{
+    background-color:#9b1700;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#iconoDiv{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#iconoImg{
+    margin:1%
+}
+
+.links{
+    text-align: center;
+}
+
+#oscarsclub{
+    text-decoration: none;
+    margin:1%
+
+}
+
+#oscars{
+    color:black;
+}
+
+#club{
+    color:#9b1700;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
+
+#cabecera div{
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecera div ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+#infoP{
+    margin-left:5%;
+    margin-right:5%;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#iconos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#iconos figure, #unirse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#iconos figure img{
+    max-width: 50%;
+    opacity: 0.5;
+}
+
+#formulario form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-family: 'Open Sans', sans-serif;
+}
+#formulario form div input{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#infoDatos{
+    max-width: 100%;
+    font-size: 1.5vh;
+}
+
+#infoDatos a{
+    color: #9b1700;
+}
+
+footer {
+    background-color: #433A44;
+
+}
+
+footer div *{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+footer div a:hover{
+    color: #9b1700;
+}
+
+#sect1{
+    display: flex;
+}
+
+#footer1, #footer2, #footer3{
+    display: flex;
+    flex-direction: column;
+}
+
+#imagenesClubs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#imagenesClubs figure img{
+    width: 100%;
+}
+
+.spanPuntos{
+    border-top: 4px dotted rgb(155, 23, 0);
+    align-content: baseline;
+    padding-right: 2%;
+}
+
+.puntos{
+    display: flex;
+    flex-direction: row;
+}
+
+.enlace2020{
+    color: #9b1700;
+}
+
+#infoSessions{
+    text-align: left;
+}
+
+#sesionesClub{
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    margin: 0%;
+}
+
+.enlacesSesiones {
+    text-decoration: none;
+    color: black;
+}
+
+#tituloIzq{
+    text-align: left;
+    margin: 0%;
+}
+
+.tituloPuntos{
+    padding-left:10px;
+    margin: 0; 
+    text-align: left;
+}
+
+#peliculasSesiones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: auto;
+}
+
+
+.subtituloPelicula{
+    width: auto;
+    border: thin #c0c0c0 solid;
+    flex-flow: column;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.pieFotoPelicula, .pieFotoPelicula a{
+    background-color: white;
+    color: #9b1700;
+    max-width: inherit;
+    text-align: left;
+}
+
+.imagenPelicula{
+    width: 100%;
+}
+
+.fotosSesiones{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+img{
+    opacity:0.5;
+}
+
+#hiloAriadna{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#rutaActual{
+    text-decoration: none;
+    color: #433A44;
+    font-size: 2vh;
+}
+
+#detallesSesion{
+    display: flex;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#tituloKlaus{
+    text-align: left;
+}
+
+.tituloBordeInf{
+    border-bottom: 1px solid #433A44;
+    margin-bottom: 1vh;
+}
+
+.subtitulo{
+    margin-left: 2vw;
+    font-size: 2vh;
+}
+
+#fotoSergio{
+    float: left;
+    width: 15vw;
+    height: 15vw;
+    margin-right: 1.5vw;
+    border-radius: 50%;
+}
+
+#videoKlaus{
+    width: 96vw;
+    height: 55vw;
+}
