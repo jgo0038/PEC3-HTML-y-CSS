@@ -60,10 +60,27 @@ html, body{
         width: 50%;
     }
 
+    body .puntoFooter{
+        font-size: 3vh;
+        visibility: visible;
+    }
+
+    body #footer1 a, #footer2 a, #footer3 a {
+        font-size: 2vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    body #footer4 a{
+        font-size: 4vh;
+        margin-right: 1vw;
+    }
+
     body footer #sect1{
         flex-direction: row;
         justify-content: space-between;
         width: -webkit-fill-available;
+        margin-top: 2vw;
     }
     body footer #sect2{
         flex-direction: row;
@@ -149,10 +166,18 @@ html, body{
         display: flex;
         flex-direction: column;
     }
-    body #videoKlaus{
+
+    body #trailer{
         display: flex;
-        width: 95%;
-        height: 150%;
+        flex-direction: column;
+        /* width: 95%;
+        height: 150%; */
+    }
+
+    body #videoKlaus{
+        /* display: flex; */
+        width: 45vw;
+        height: 25vw;
     }
     BODY #fotoSergio{
         width: 8vw;
@@ -437,6 +462,7 @@ img{
 
 #detallesSesion{
     display: flex;
+    flex-direction: column;
     margin-left: 2vw;
     margin-right: 2vw;
 }
@@ -466,4 +492,8 @@ img{
 #videoKlaus{
     width: 96vw;
     height: 55vw;
+}
+
+.puntoFooter{
+    visibility: hidden;
 }
