@@ -199,7 +199,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
 }
 
-#login{
+.login{
     background-color:#9b1700;
     color: white;
     border-radius: 3px;
@@ -401,7 +401,6 @@ footer div a:hover{
 #sesionesClub{
     display: flex;
     justify-content: left;
-    /* align-content: left; */
     margin: 0%;
 }
 
@@ -438,6 +437,11 @@ footer div a:hover{
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .pieFotoPelicula, .pieFotoPelicula a{
@@ -450,16 +454,6 @@ footer div a:hover{
 .imagenPelicula{
     width: 100%;
     opacity: 0.5;
-}
-
-.fotosSesiones{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    font-family: 'Open Sans', sans-serif;
-
 }
 
 #hiloAriadna{
@@ -485,7 +479,7 @@ footer div a:hover{
     margin-right: 2vw;
 }
 
-#tituloKlaus{
+.tituloKlaus{
     text-align: left;
 }
 
@@ -516,6 +510,6 @@ footer div a:hover{
     visibility: hidden;
 }
 
-#login:hover{
+.login:hover{
     color:#1c1c1c;
 }
