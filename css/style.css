@@ -4,6 +4,7 @@ html, body{
     max-height: 100%;
     margin: 0px;
     font-family: 'Noto Serif', serif;
+    color: #1c1c1c;
 }
 
 /* Responsive para pantallas mayores de 900px*/
@@ -63,6 +64,10 @@ html, body{
     body .puntoFooter{
         font-size: 3vh;
         visibility: visible;
+    }
+
+    body #footer a:hover{
+        color: #9b1700;
     }
 
     body #footer1 a, #footer2 a, #footer3 a {
@@ -254,6 +259,12 @@ li{
     
 }
 
+#cabecera div ul li a:hover{
+    text-decoration: none;
+    color:rgba(28, 28, 28, 0.5);
+    
+}
+
 #info{
     display: flex;
     justify-content: center;
@@ -288,7 +299,7 @@ h3{
 
 #iconos figure img{
     max-width: 50%;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
 #formulario form {
@@ -296,7 +307,6 @@ h3{
     width: 100%;
     flex-direction: column;
     justify-content: left;
-    align-items: left;
     font-family: 'Open Sans', sans-serif;
 }
 #formulario form div input{
@@ -354,6 +364,10 @@ footer div a:hover{
     flex-direction: column;
 }
 
+#footer a:hover{
+    color: #9b1700;
+}
+
 #imagenesClubs{
     display: flex;
     flex-direction: column;
@@ -387,7 +401,7 @@ footer div a:hover{
 #sesionesClub{
     display: flex;
     justify-content: left;
-    align-content: left;
+    /* align-content: left; */
     margin: 0%;
 }
 
@@ -405,6 +419,7 @@ footer div a:hover{
     padding-left:10px;
     margin: 0; 
     text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #peliculasSesiones{
@@ -434,6 +449,7 @@ footer div a:hover{
 
 .imagenPelicula{
     width: 100%;
+    opacity: 0.5;
 }
 
 .fotosSesiones{
@@ -446,14 +462,16 @@ footer div a:hover{
 
 }
 
-img{
-    opacity:0.5;
-}
-
 #hiloAriadna{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+
+#hiloAriadna a{
+    color:rgba(28, 28, 28, 0.5);
+
+}
+
 #rutaActual{
     text-decoration: none;
     color: #433A44;
@@ -496,4 +514,8 @@ img{
 
 .puntoFooter{
     visibility: hidden;
+}
+
+#login:hover{
+    color:#1c1c1c;
 }
